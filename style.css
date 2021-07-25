@@ -1,0 +1,244 @@
+/* google fonts  */
+/* common css  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{ 
+    margin: 0;
+    padding: 0;
+    background: #252B42;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    margin-top: 200px;
+}
+.background-color{
+    background-color: #0d6efd;
+}
+.section-margin{
+    margin-top: 155px !important;
+}
+/* .container{
+    width: 1046px;
+} */
+
+/* =============
+       hedder
+   ============*/
+header{
+    width: 100%;
+    height: 690px;
+    background-image: url(images/top-banner-1.jpg);
+    background-size: cover;
+    margin-bottom: 245px;
+}
+/* navbar  */
+.navbar-nav > li:hover{
+    background-color: #222121;
+    border-radius: 3px;
+}
+.become-member-btn{
+    background-color: #23a6f0;
+    border-radius: 3px;
+}
+
+.header-content{
+    margin-top: 0px;
+}
+
+.headding{
+    font-size: 58px;
+    font-weight: 800;
+    margin-top: 80px
+}
+.sub-headding{
+    margin-top: 35px;
+}
+.buttons{
+    margin-top: 35px;
+}
+.btn1{
+    margin-right: 10px;
+}
+.card-section-margin{
+    margin-top: 80px;
+}
+.card-custom{
+    height: 200px;
+    padding: 30px 35px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.card i.fas.fa-user-friends{
+    margin-bottom: 10px;
+    font-size: 45px;
+    color: #23A6F0;
+}
+.card i.fas.fa-user-friends .third{
+    color: #ffffff;
+}
+
+
+/* ===============
+         main  
+   ===============*/
+.card-row-top{
+    margin-top: 60px;
+}
+.client-card-body h6{
+    font-size: 14px;
+    font-weight: bold;
+}
+.ratingbar{
+    margin-top: 15px;
+   }
+.ratingbar > ul{
+    display: flex;
+    padding-left: 0px !important;
+}
+.ratingbar > ul >li{
+    list-style: none;
+}
+
+.ratingbar > ul > li > i{
+    padding: 0px 3px;
+}
+.field-color{
+    color: #F3CD03;
+
+}
+.empty-field-color{
+    color: #F3CD03;
+}
+/* FAQ  */
+.faq-card-custom{
+    padding:25px !important;
+}
+.faq-card-custom i.fas.fa-chevron-right{
+    color: #23A6F0;
+
+}
+.faq-card-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+.fee {
+    color: #23A6F0;
+    display:flex;
+    align-items: center;
+  }
+  .fee h2{
+      font-weight: bolder;
+  }
+  .supsub {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+  }
+  .subscript {
+    display:flex;
+  }
+  
+  .superscript {
+    display:flex; 
+  }
+  .superscript h6{
+    font-weight: bold;
+  }
+.card-button{
+    width: 100%;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 8px 12px;
+}
+.card-button a{
+    text-decoration: none;
+    color: white;
+}
+.features-list ul li{
+    list-style: none;
+    padding: 3px 0px;
+}
+.fas.fa-check-circle{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.green-color{
+    color: #2DC071;
+}
+.gray-color{
+    color: #BDBDBD;
+}
+map{
+    color: white;
+}
+
+/* .section-bg{
+    width: 100%;
+    height: 335px;
+    background-color: white !important;
+    margin-top: -350px;
+} */
+
+/* footer  */
+.footer-button{
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+}
+.footer-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-middle-bg{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(270deg, #D71489 -1.04%, #004788 100%);
+    margin-top: 26px;
+
+}
+.contacts div> h5{
+    font-weight: 700;
+    margin-bottom: 15px !important;
+}
+.contacts .col-md-2 a{
+    color: white;
+    text-decoration: none;
+}
+.contact > ul{
+    padding-left: 0% !important;
+}
+.contact > ul > li{
+   list-style: none;
+   display: flex;
+   margin: 10px 0px;
+}
+.contact > ul > li i{
+ margin-right: 10px;
+}
+
+.footer-bottom{
+    padding: 25px 0px 9px 0px;
+}
+.social-media > ul{
+    display: flex;
+    justify-items: flex-end;
+}
+.social-media > ul > li {
+    list-style: none;
+}
+.social-media > ul > li > a{
+    color: #0d6efd;
+    margin: 0px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contact-image{
+        width: 100%;
+    }
+}
